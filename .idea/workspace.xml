@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bafa2504-162c-4134-84c9-396c59a25603" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ApiApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiApp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BudgetApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BudgetApp/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BudgetApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BudgetApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,20 +18,66 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApiApp/urls.py">
+        <entry file="file://$PROJECT_DIR$/BudgetApp/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApiApp/api/serializer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <caret line="4" selection-start-line="4" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ApiApp/api/viewsets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BudgetApp/router.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApiApp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BudgetApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="224">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="13" />
               <folding>
+                <element signature="e#0#632#1" />
                 <element signature="e#633#665#0" expanded="true" />
               </folding>
             </state>
@@ -52,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BudgetApp/settings.py" />
         <option value="$PROJECT_DIR$/budget/static/styles.css" />
         <option value="$PROJECT_DIR$/budget/templates/budget/base.html" />
         <option value="$PROJECT_DIR$/budget/admin.py" />
@@ -65,7 +114,12 @@
         <option value="$PROJECT_DIR$/budget/views.py" />
         <option value="$PROJECT_DIR$/budget/urls.py" />
         <option value="$PROJECT_DIR$/ApiApp/urls.py" />
+        <option value="$PROJECT_DIR$/BudgetApp/settings.py" />
+        <option value="$PROJECT_DIR$/ApiApp/models.py" />
         <option value="$PROJECT_DIR$/BudgetApp/urls.py" />
+        <option value="$PROJECT_DIR$/ApiApp/api/serializer.py" />
+        <option value="$PROJECT_DIR$/BudgetApp/router.py" />
+        <option value="$PROJECT_DIR$/ApiApp/api/viewsets.py" />
       </list>
     </option>
   </component>
@@ -139,6 +193,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="BudgetApp.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -168,23 +223,22 @@
       <option name="presentableId" value="Default" />
       <updated>1552993803532</updated>
       <workItem from="1552993805155" duration="16056000" />
-      <workItem from="1553145904615" duration="87000" />
+      <workItem from="1553145904615" duration="2804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16143000" />
+    <option name="totallyTimeSpent" value="18860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -193,7 +247,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33045357" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33045357" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -208,13 +262,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BudgetApp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/budget/templates/budget/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -297,19 +344,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApiApp/urls.py">
+    <entry file="file://$PROJECT_DIR$/BudgetApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="224">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#632#1" />
+            <element signature="e#633#665#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BudgetApp/urls.py">
+    <entry file="file://$PROJECT_DIR$/ApiApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="56">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BudgetApp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiApp/api/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" selection-start-line="4" selection-end-line="9" />
           <folding>
-            <element signature="e#633#665#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BudgetApp/router.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiApp/api/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
